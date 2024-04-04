@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Attention Guardian</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="page-container">
+    <div class="content-container" id="question-container">
+      <div class="heading-container">
+        <h1 class="heading" >Do you wish to continue?</h1>
+        <div class="rectangle"></div>
+      </div>
+      <button id="no-button" class="action-button">NO</button>
+      <button id="yes-button" class="action-button">yes</button>
+      <img class="skip-icon" style="cursor:pointer;" src="public/skip.svg" height="20" width="20"></img>
+    </div>
+
+    <div class="content-container" id="intention-container" style="display:none;">
+      <div class="heading-container">
+          <h1 class="heading" >Alright, do you want to set your intention?</h1>
+          <div class="rectangle"></div>
+      </div>
+      <div>
+        <textarea type="text" class="intention-textbox" name="intention" placeholder="intention..."></textarea>
+      </div>
+      <button id="continue-button" class="action-button">continue</button>
+      <img class="skip-icon" style="cursor:pointer;" src="public/skip.svg" height="20" width="20"></img>
+    </div>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>

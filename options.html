@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Attention Guardian</title>
+</head>
+<body>
+  <div>
+    <div id="blocked_urls">
+      <h2>Blocked URLs</h2>
+      <ul id="all_blocked_urls">
+      </ul>
+    </div>
+    <h2>Block a url</h2>
+    <form id="user_input">  
+      <label for="url_to_block">Url</label>
+      <input required minlength="3" type="text" id="url_to_block" name="url_to_block"></input>
+      <button>Block</button>
+    </form>
+  </div>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

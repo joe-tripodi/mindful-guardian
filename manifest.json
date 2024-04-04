@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.0",
+  "name": "Mindful Guardian",
+  "description": "This mindful guardian will help you keep control of your focus.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webNavigation",
+    "tabs"
+  ],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
+

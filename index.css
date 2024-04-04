@@ -1,0 +1,92 @@
+@font-face {
+   font-family: 'Julius';
+     src: url('public/SignikaNegative-VariableFont_wght.ttf') format('truetype'), /* URL to the WOFF font file */
+}
+
+label {
+  font-family: 'Julius', sans-serif;
+}
+
+.intention-textbox {
+  font-family: 'Julius', sans-serif;
+  resize: none;
+  border: none;
+  background-color: #D8DDDE;
+}
+
+.intention-textbox {
+  width: 400px;
+  height: 190px;
+}
+
+.body {
+  font-family: 'Julius', sans-serif;
+}
+
+#page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: end;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  width: 400px;
+}
+
+.heading {
+  font-family: 'Julius', sans-serif;
+  font-size: 56px;
+  background-color: transparent;
+  color: #31493C;
+}
+
+.rectangle {
+  top: 68px;
+  position: absolute;
+  height: 50%;
+  right: 0px;
+  width: 94%;
+  background-color: #CFCBCA;
+  z-index: -1;
+}
+
+.action-button {
+  cursor: pointer;
+  font-family: 'Julius', sans-serif;
+  width: 5em;
+  border: none;
+}
+
+#yes-button {
+  background-color: #31493C;
+  color: #CFCBCA;
+  font-size: 23px;
+
+}
+#continue-button {
+  background-color: #31493C;
+  color: #CFCBCA;
+  font-size: 23px;
+}
+
+#no-button {
+  font-weight: bold;
+  background-color: #8C271E;
+  color: #CFCBCA;
+  font-size: 33px;
+}
